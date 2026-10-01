@@ -90,31 +90,69 @@
               "layout": "none",
               "children": [
                 {
-                  "type": "text",
-                  "id": "caRHj",
-                  "x": 0,
-                  "y": 0,
-                  "name": "Wordmark",
-                  "enabled": false,
-                  "fill": "#F6EBDD",
-                  "content": "barchello",
-                  "lineHeight": 1.18,
-                  "fontFamily": "Inter",
-                  "fontSize": 25,
-                  "fontWeight": "600"
+                  "type": "frame",
+                  "id": "H41l3K",
+                  "x": 204,
+                  "y": 9,
+                  "name": "Mobile menu button",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "#201B18",
+                  "cornerRadius": 20,
+                  "stroke": "#463B34",
+                  "strokeWidth": 1,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "xGEe7",
+                      "name": "Menu icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "menu",
+                      "library": "lucide",
+                      "fill": "#F6EBDD"
+                    }
+                  ]
                 },
                 {
-                  "type": "text",
-                  "id": "Y125H",
-                  "x": 66,
-                  "y": 18,
-                  "name": "Barchello рядом с логотипом",
-                  "fill": "#A8DE42",
-                  "content": "Barchello",
-                  "lineHeight": 1,
-                  "fontFamily": "Playfair Display",
-                  "fontSize": 20,
-                  "fontWeight": "normal"
+                  "type": "frame",
+                  "id": "INeoU",
+                  "x": 252,
+                  "y": 9,
+                  "name": "Mobile account entry",
+                  "width": 98,
+                  "height": 40,
+                  "fill": "#201B18",
+                  "cornerRadius": 20,
+                  "stroke": "#463B34",
+                  "strokeWidth": 1,
+                  "gap": 7,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Jbh07",
+                      "name": "Mobile account icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "user-round",
+                      "library": "lucide",
+                      "fill": "#A8DE42"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c7WFuA",
+                      "name": "Mobile account label",
+                      "fill": "#F6EBDD",
+                      "content": "Войти",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
                 },
                 {
                   "type": "frame",
@@ -139,6 +177,33 @@
                       "height": 58
                     }
                   ]
+                },
+                {
+                  "type": "text",
+                  "id": "Y125H",
+                  "x": 66,
+                  "y": 18,
+                  "name": "Barchello рядом с логотипом",
+                  "fill": "#A8DE42",
+                  "content": "Barchello",
+                  "lineHeight": 1,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "caRHj",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Wordmark",
+                  "enabled": false,
+                  "fill": "#F6EBDD",
+                  "content": "barchello",
+                  "lineHeight": 1.18,
+                  "fontFamily": "Inter",
+                  "fontSize": 25,
+                  "fontWeight": "600"
                 }
               ]
             },
@@ -372,50 +437,60 @@
                   "fontWeight": "normal"
                 },
                 {
-                  "type": "text",
-                  "id": "tSem1",
-                  "name": "Negroni description",
-                  "fill": "#B7A99B",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Лайм, мята и прохлада в высоком бокале. Свайпните, чтобы увидеть следующий коктейль.",
-                  "lineHeight": 1.18,
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
                   "type": "frame",
-                  "id": "L7i2G",
-                  "name": "Recipe button mobile",
-                  "width": 180,
-                  "height": 42,
-                  "fill": "#A8DE42",
-                  "cornerRadius": 21,
-                  "gap": 8,
-                  "justifyContent": "center",
-                  "alignItems": "center",
+                  "id": "MwA5i",
+                  "name": "Mobile description and recipe action",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
                   "children": [
                     {
                       "type": "text",
-                      "id": "a4VIs",
-                      "name": "Recipe button mobile label",
-                      "fill": "#14110F",
-                      "content": "Смотреть рецепт",
+                      "id": "tSem1",
+                      "name": "Negroni description",
+                      "fill": "#B7A99B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Лайм, мята и прохлада в высоком бокале. Свайпните, чтобы увидеть следующий коктейль.",
                       "lineHeight": 1.18,
                       "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "700"
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
-                      "type": "icon",
-                      "id": "PzHUA",
-                      "name": "Recipe button mobile arrow",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "arrow-up-right",
-                      "library": "lucide",
-                      "fill": "#14110F"
+                      "type": "frame",
+                      "id": "L7i2G",
+                      "name": "Recipe button mobile",
+                      "width": 180,
+                      "height": 42,
+                      "fill": "#A8DE42",
+                      "cornerRadius": 21,
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a4VIs",
+                          "name": "Recipe button mobile label",
+                          "fill": "#14110F",
+                          "content": "Смотреть рецепт",
+                          "lineHeight": 1.18,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "PzHUA",
+                          "name": "Recipe button mobile arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#14110F"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2494,7 +2569,6 @@
       "name": "06 · Избранное · пустое",
       "clip": true,
       "width": 390,
-      "height": 712,
       "fill": "#14110F",
       "layout": "vertical",
       "children": [
@@ -2596,7 +2670,7 @@
               "width": "fill_container",
               "height": 410,
               "layout": "vertical",
-              "gap": 14,
+              "gap": 16,
               "justifyContent": "center",
               "alignItems": "center",
               "children": [
@@ -2644,6 +2718,7 @@
                   "width": 285,
                   "content": "Сохраняйте понравившиеся рецепты, чтобы быстро открыть их у бара.",
                   "lineHeight": 1.18,
+                  "textAlign": "center",
                   "fontFamily": "Inter",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -2920,6 +2995,7 @@
                   "type": "frame",
                   "id": "M1sdPQ",
                   "name": "Recipe actions",
+                  "width": 99,
                   "gap": 18,
                   "children": [
                     {
@@ -2941,6 +3017,19 @@
                       "icon": "share-2",
                       "library": "lucide",
                       "fill": "#F6EBDD"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "VByr2",
+                      "layoutPosition": "absolute",
+                      "x": 78,
+                      "y": 0,
+                      "name": "Download recipe poster",
+                      "width": 21,
+                      "height": 21,
+                      "icon": "download",
+                      "library": "lucide",
+                      "fill": "#A8DE42"
                     }
                   ]
                 }
@@ -3010,6 +3099,63 @@
                   "fontFamily": "Inter",
                   "fontSize": 14,
                   "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "b7QcWt",
+                  "name": "View cocktail story",
+                  "fill": "#A8DE42",
+                  "content": "Смотреть историю  ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "YWyH2",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Download recipe poster",
+                  "enabled": false,
+                  "width": "fit_content(215)",
+                  "height": "fit_content(36)",
+                  "fill": "#A8DE42",
+                  "cornerRadius": 24,
+                  "gap": 10,
+                  "padding": [
+                    10,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "LEG87",
+                      "layoutPosition": "absolute",
+                      "x": 14,
+                      "y": 10,
+                      "name": "Download poster icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "download",
+                      "library": "lucide",
+                      "fill": "#14110F"
+                    },
+                    {
+                      "type": "text",
+                      "id": "N0s76v",
+                      "layoutPosition": "absolute",
+                      "x": 40,
+                      "y": 10,
+                      "name": "Download poster label",
+                      "fill": "#14110F",
+                      "content": "Скачать постер рецепта",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
                 }
               ]
             },
@@ -3033,19 +3179,18 @@
                   "type": "frame",
                   "id": "mhN7w",
                   "name": "ВРЕМЯ",
-                  "layout": "vertical",
-                  "gap": 5,
+                  "gap": 8,
+                  "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "t0xGX",
-                      "name": "ВРЕМЯ",
-                      "fill": "#B7A99B",
-                      "content": "ВРЕМЯ",
-                      "lineHeight": 1.18,
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "700"
+                      "type": "icon",
+                      "id": "TKsBI",
+                      "name": "Time icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "clock-3",
+                      "library": "lucide",
+                      "fill": "#A8DE42"
                     },
                     {
                       "type": "text",
@@ -3064,19 +3209,18 @@
                   "type": "frame",
                   "id": "PlRJq",
                   "name": "БОКАЛ",
-                  "layout": "vertical",
-                  "gap": 5,
+                  "gap": 8,
+                  "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "c7lurV",
-                      "name": "БОКАЛ",
-                      "fill": "#B7A99B",
-                      "content": "БОКАЛ",
-                      "lineHeight": 1.18,
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "700"
+                      "type": "icon",
+                      "id": "yuA6Q",
+                      "name": "Glass icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "martini",
+                      "library": "lucide",
+                      "fill": "#A8DE42"
                     },
                     {
                       "type": "text",
@@ -3095,19 +3239,18 @@
                   "type": "frame",
                   "id": "uO9CO",
                   "name": "МЕТОД",
-                  "layout": "vertical",
-                  "gap": 5,
+                  "gap": 8,
+                  "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "A2Ewzi",
-                      "name": "МЕТОД",
-                      "fill": "#B7A99B",
-                      "content": "МЕТОД",
-                      "lineHeight": 1.18,
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "700"
+                      "type": "icon",
+                      "id": "v7dpo",
+                      "name": "Method icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "refresh-cw",
+                      "library": "lucide",
+                      "fill": "#A8DE42"
                     },
                     {
                       "type": "text",
@@ -3285,6 +3428,7 @@
               "cornerRadius": 10,
               "gap": 10,
               "padding": 13,
+              "alignItems": "center",
               "children": [
                 {
                   "type": "icon",
@@ -3864,30 +4008,151 @@
               ]
             },
             {
+              "type": "text",
+              "id": "LTNLe",
+              "name": "Privacy hint",
+              "fill": "#B7A99B",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Ваши сохранённые рецепты доступны на любом устройстве.",
+              "lineHeight": 1.18,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
               "type": "frame",
-              "id": "bHipO",
-              "name": "Account footer",
+              "id": "x1ptZT",
+              "name": "Navigation area",
               "width": "fill_container",
               "layout": "vertical",
               "padding": [
-                180,
-                0,
-                0,
-                0
+                12,
+                16,
+                18,
+                16
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "LTNLe",
-                  "name": "Privacy hint",
-                  "fill": "#B7A99B",
-                  "textGrowth": "fixed-width",
+                  "type": "frame",
+                  "id": "T4ZJkr",
+                  "name": "Bottom navigation",
                   "width": "fill_container",
-                  "content": "Ваши сохранённые рецепты доступны на любом устройстве.",
-                  "lineHeight": 1.18,
-                  "fontFamily": "Inter",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
+                  "height": 62,
+                  "fill": "#28211DD9",
+                  "cornerRadius": 31,
+                  "gap": 4,
+                  "padding": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ggoLM",
+                      "name": "Каталог",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#28211D",
+                      "cornerRadius": 26,
+                      "layout": "vertical",
+                      "gap": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "UKNc7",
+                          "name": "Каталог icon",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "compass",
+                          "library": "lucide",
+                          "fill": "#B7A99B"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vzbJY",
+                          "name": "Каталог label",
+                          "fill": "#B7A99B",
+                          "content": "Каталог",
+                          "lineHeight": 1.18,
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "no2vk",
+                      "name": "Мой бар",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#28211D",
+                      "cornerRadius": 26,
+                      "layout": "vertical",
+                      "gap": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "mHmrn",
+                          "name": "Мой бар icon",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "wine",
+                          "library": "lucide",
+                          "fill": "#B7A99B"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xVnBc",
+                          "name": "Мой бар label",
+                          "fill": "#B7A99B",
+                          "content": "Мой бар",
+                          "lineHeight": 1.18,
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WO0cD",
+                      "name": "Избранное",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#2B4818",
+                      "cornerRadius": 26,
+                      "layout": "vertical",
+                      "gap": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ezoev",
+                          "name": "Избранное icon",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "bookmark",
+                          "library": "lucide",
+                          "fill": "#A8DE42"
+                        },
+                        {
+                          "type": "text",
+                          "id": "H0VoH",
+                          "name": "Избранное label",
+                          "fill": "#A8DE42",
+                          "content": "Избранное",
+                          "lineHeight": 1.18,
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -4551,7 +4816,8 @@
                   "content": "Barchello",
                   "lineHeight": 1,
                   "fontFamily": "Playfair Display",
-                  "fontSize": 30
+                  "fontSize": 30,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -4611,8 +4877,7 @@
             {
               "type": "frame",
               "id": "yXDpG",
-              "name": "Desktop search",
-              "width": 218,
+              "name": "Desktop account entry",
               "height": 44,
               "fill": "#201B18",
               "cornerRadius": 22,
@@ -4628,23 +4893,23 @@
                 {
                   "type": "icon",
                   "id": "AMfEY",
-                  "name": "Desktop search icon",
-                  "width": 17,
-                  "height": 17,
-                  "icon": "search",
+                  "name": "Desktop account icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "user-round",
                   "library": "lucide",
                   "fill": "#A8DE42"
                 },
                 {
                   "type": "text",
                   "id": "n2tC9U",
-                  "name": "Desktop search hint",
-                  "fill": "#B7A99B",
-                  "content": "Найти рецепт",
+                  "name": "Desktop account label",
+                  "fill": "#F6EBDD",
+                  "content": "Личный кабинет",
                   "lineHeight": 1.17,
                   "fontFamily": "Inter",
                   "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontWeight": "600"
                 }
               ]
             }
@@ -4734,50 +4999,60 @@
                   "fontWeight": "normal"
                 },
                 {
-                  "type": "text",
-                  "id": "DNsvf",
-                  "name": "Current cocktail text",
-                  "fill": "#F6EBDD",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Свежая мята, лайм и лёгкий ром. Вечер начинается с простого движения.",
-                  "lineHeight": 1.17,
-                  "fontFamily": "Inter",
-                  "fontSize": 17,
-                  "fontWeight": "normal"
-                },
-                {
                   "type": "frame",
-                  "id": "Qz60Q",
-                  "name": "Recipe button",
-                  "width": 180,
-                  "height": 50,
-                  "fill": "#A8DE42",
-                  "cornerRadius": 25,
-                  "gap": 10,
-                  "justifyContent": "center",
-                  "alignItems": "center",
+                  "id": "W4ccx",
+                  "name": "Description and recipe action",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 32,
                   "children": [
                     {
                       "type": "text",
-                      "id": "DCQSF",
-                      "name": "Recipe button label",
-                      "fill": "#14110F",
-                      "content": "Смотреть рецепт",
+                      "id": "DNsvf",
+                      "name": "Current cocktail text",
+                      "fill": "#F6EBDD",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Свежая мята, лайм и лёгкий ром. Вечер начинается с простого движения.",
                       "lineHeight": 1.17,
                       "fontFamily": "Inter",
-                      "fontSize": 13,
-                      "fontWeight": "700"
+                      "fontSize": 17,
+                      "fontWeight": "normal"
                     },
                     {
-                      "type": "icon",
-                      "id": "q4FEf",
-                      "name": "Recipe button arrow",
-                      "width": 16,
-                      "height": 16,
-                      "icon": "arrow-up-right",
-                      "library": "lucide",
-                      "fill": "#14110F"
+                      "type": "frame",
+                      "id": "Qz60Q",
+                      "name": "Recipe button",
+                      "width": 180,
+                      "height": 50,
+                      "fill": "#A8DE42",
+                      "cornerRadius": 25,
+                      "gap": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DCQSF",
+                          "name": "Recipe button label",
+                          "fill": "#14110F",
+                          "content": "Смотреть рецепт",
+                          "lineHeight": 1.17,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "q4FEf",
+                          "name": "Recipe button arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#14110F"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -5279,7 +5554,8 @@
                   "content": "Barchello",
                   "lineHeight": 1,
                   "fontFamily": "Playfair Display",
-                  "fontSize": 30
+                  "fontSize": 30,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -5339,8 +5615,7 @@
             {
               "type": "frame",
               "id": "f057c1",
-              "name": "Desktop search",
-              "width": 218,
+              "name": "Desktop account entry",
               "height": 44,
               "fill": "#201B18",
               "cornerRadius": 22,
@@ -5356,23 +5631,23 @@
                 {
                   "type": "icon",
                   "id": "bb2zH",
-                  "name": "Desktop search icon",
-                  "width": 17,
-                  "height": 17,
-                  "icon": "search",
+                  "name": "Desktop account icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "user-round",
                   "library": "lucide",
                   "fill": "#A8DE42"
                 },
                 {
                   "type": "text",
                   "id": "tos22",
-                  "name": "Desktop search hint",
-                  "fill": "#B7A99B",
-                  "content": "Найти рецепт",
+                  "name": "Desktop account label",
+                  "fill": "#F6EBDD",
+                  "content": "Личный кабинет",
                   "lineHeight": 1.17,
                   "fontFamily": "Inter",
                   "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontWeight": "600"
                 }
               ]
             }
@@ -6190,7 +6465,8 @@
                   "content": "Barchello",
                   "lineHeight": 1,
                   "fontFamily": "Playfair Display",
-                  "fontSize": 30
+                  "fontSize": 30,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -6250,8 +6526,7 @@
             {
               "type": "frame",
               "id": "Qgu3t",
-              "name": "Desktop search",
-              "width": 218,
+              "name": "Desktop account entry",
               "height": 44,
               "fill": "#201B18",
               "cornerRadius": 22,
@@ -6267,23 +6542,23 @@
                 {
                   "type": "icon",
                   "id": "G8g3O",
-                  "name": "Desktop search icon",
-                  "width": 17,
-                  "height": 17,
-                  "icon": "search",
+                  "name": "Desktop account icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "user-round",
                   "library": "lucide",
                   "fill": "#A8DE42"
                 },
                 {
                   "type": "text",
                   "id": "N8T1RD",
-                  "name": "Desktop search hint",
-                  "fill": "#B7A99B",
-                  "content": "Найти рецепт",
+                  "name": "Desktop account label",
+                  "fill": "#F6EBDD",
+                  "content": "Личный кабинет",
                   "lineHeight": 1.17,
                   "fontFamily": "Inter",
                   "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontWeight": "600"
                 }
               ]
             }
@@ -6381,6 +6656,7 @@
                       "type": "frame",
                       "id": "C2ETh",
                       "name": "Desktop recipe actions",
+                      "width": 112,
                       "gap": 20,
                       "children": [
                         {
@@ -6402,6 +6678,19 @@
                           "icon": "share-2",
                           "library": "lucide",
                           "fill": "#F6EBDD"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "Nv3ri",
+                          "layoutPosition": "absolute",
+                          "x": 88,
+                          "y": 0,
+                          "name": "Download recipe poster",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "download",
+                          "library": "lucide",
+                          "fill": "#A8DE42"
                         }
                       ]
                     }
@@ -6419,6 +6708,63 @@
                   "fontFamily": "Inter",
                   "fontSize": 16,
                   "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "uftNF",
+                  "name": "View cocktail story",
+                  "fill": "#A8DE42",
+                  "content": "Смотреть историю  ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "VeTpL",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Download recipe poster",
+                  "enabled": false,
+                  "width": "fit_content(250)",
+                  "height": "fit_content(42)",
+                  "fill": "#A8DE42",
+                  "cornerRadius": 24,
+                  "gap": 10,
+                  "padding": [
+                    12,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "bVnva",
+                      "layoutPosition": "absolute",
+                      "x": 18,
+                      "y": 12,
+                      "name": "Download poster icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "download",
+                      "library": "lucide",
+                      "fill": "#14110F"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wHec8",
+                      "layoutPosition": "absolute",
+                      "x": 46,
+                      "y": 12,
+                      "name": "Download poster label",
+                      "fill": "#14110F",
+                      "content": "Скачать постер рецепта",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
                 },
                 {
                   "type": "frame",
@@ -6440,19 +6786,18 @@
                       "type": "frame",
                       "id": "CuUVy",
                       "name": "ВРЕМЯ fact",
-                      "layout": "vertical",
-                      "gap": 5,
+                      "gap": 8,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "o65Vs8",
-                          "name": "ВРЕМЯ label",
-                          "fill": "#B7A99B",
-                          "content": "ВРЕМЯ",
-                          "lineHeight": 1.17,
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "700"
+                          "type": "icon",
+                          "id": "etEhc",
+                          "name": "Time icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "clock-3",
+                          "library": "lucide",
+                          "fill": "#A8DE42"
                         },
                         {
                           "type": "text",
@@ -6471,19 +6816,18 @@
                       "type": "frame",
                       "id": "B8bvCt",
                       "name": "БОКАЛ fact",
-                      "layout": "vertical",
-                      "gap": 5,
+                      "gap": 8,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "jdVNM",
-                          "name": "БОКАЛ label",
-                          "fill": "#B7A99B",
-                          "content": "БОКАЛ",
-                          "lineHeight": 1.17,
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "700"
+                          "type": "icon",
+                          "id": "aqUZ0",
+                          "name": "Glass icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "martini",
+                          "library": "lucide",
+                          "fill": "#A8DE42"
                         },
                         {
                           "type": "text",
@@ -6502,19 +6846,18 @@
                       "type": "frame",
                       "id": "XTEie",
                       "name": "МЕТОД fact",
-                      "layout": "vertical",
-                      "gap": 5,
+                      "gap": 8,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "A1qUN",
-                          "name": "МЕТОД label",
-                          "fill": "#B7A99B",
-                          "content": "МЕТОД",
-                          "lineHeight": 1.17,
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "700"
+                          "type": "icon",
+                          "id": "Z0jHnS",
+                          "name": "Method icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "refresh-cw",
+                          "library": "lucide",
+                          "fill": "#A8DE42"
                         },
                         {
                           "type": "text",
@@ -7049,7 +7392,8 @@
                   "content": "Barchello",
                   "lineHeight": 1,
                   "fontFamily": "Playfair Display",
-                  "fontSize": 30
+                  "fontSize": 30,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7109,8 +7453,7 @@
             {
               "type": "frame",
               "id": "C6A8i",
-              "name": "Desktop search",
-              "width": 218,
+              "name": "Desktop account entry",
               "height": 44,
               "fill": "#201B18",
               "cornerRadius": 22,
@@ -7126,23 +7469,23 @@
                 {
                   "type": "icon",
                   "id": "JwGnC",
-                  "name": "Desktop search icon",
-                  "width": 17,
-                  "height": 17,
-                  "icon": "search",
+                  "name": "Desktop account icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "user-round",
                   "library": "lucide",
                   "fill": "#A8DE42"
                 },
                 {
                   "type": "text",
                   "id": "n29ki2",
-                  "name": "Desktop search hint",
-                  "fill": "#B7A99B",
-                  "content": "Найти рецепт",
+                  "name": "Desktop account label",
+                  "fill": "#F6EBDD",
+                  "content": "Личный кабинет",
                   "lineHeight": 1.17,
                   "fontFamily": "Inter",
                   "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontWeight": "600"
                 }
               ]
             }
@@ -8174,7 +8517,8 @@
                   "content": "Barchello",
                   "lineHeight": 1,
                   "fontFamily": "Playfair Display",
-                  "fontSize": 30
+                  "fontSize": 30,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -8234,8 +8578,7 @@
             {
               "type": "frame",
               "id": "O01r5W",
-              "name": "Desktop search",
-              "width": 218,
+              "name": "Desktop account entry",
               "height": 44,
               "fill": "#201B18",
               "cornerRadius": 22,
@@ -8251,23 +8594,23 @@
                 {
                   "type": "icon",
                   "id": "Ixg38",
-                  "name": "Desktop search icon",
-                  "width": 17,
-                  "height": 17,
-                  "icon": "search",
+                  "name": "Desktop account icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "user-round",
                   "library": "lucide",
                   "fill": "#A8DE42"
                 },
                 {
                   "type": "text",
                   "id": "VbKIF",
-                  "name": "Desktop search hint",
-                  "fill": "#B7A99B",
-                  "content": "Найти рецепт",
+                  "name": "Desktop account label",
+                  "fill": "#F6EBDD",
+                  "content": "Личный кабинет",
                   "lineHeight": 1.17,
                   "fontFamily": "Inter",
                   "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontWeight": "600"
                 }
               ]
             }
@@ -8794,7 +9137,8 @@
                   "content": "Barchello",
                   "lineHeight": 1,
                   "fontFamily": "Playfair Display",
-                  "fontSize": 30
+                  "fontSize": 30,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -8854,8 +9198,7 @@
             {
               "type": "frame",
               "id": "w6jwx",
-              "name": "Desktop search",
-              "width": 218,
+              "name": "Desktop account entry",
               "height": 44,
               "fill": "#201B18",
               "cornerRadius": 22,
@@ -8871,23 +9214,23 @@
                 {
                   "type": "icon",
                   "id": "ZKnDE",
-                  "name": "Desktop search icon",
-                  "width": 17,
-                  "height": 17,
-                  "icon": "search",
+                  "name": "Desktop account icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "user-round",
                   "library": "lucide",
                   "fill": "#A8DE42"
                 },
                 {
                   "type": "text",
                   "id": "I07HL6",
-                  "name": "Desktop search hint",
-                  "fill": "#B7A99B",
-                  "content": "Найти рецепт",
+                  "name": "Desktop account label",
+                  "fill": "#F6EBDD",
+                  "content": "Личный кабинет",
                   "lineHeight": 1.17,
                   "fontFamily": "Inter",
                   "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontWeight": "600"
                 }
               ]
             }
@@ -9394,7 +9737,8 @@
                   "content": "Barchello",
                   "lineHeight": 1,
                   "fontFamily": "Playfair Display",
-                  "fontSize": 30
+                  "fontSize": 30,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -9454,8 +9798,7 @@
             {
               "type": "frame",
               "id": "zLFQF",
-              "name": "Desktop search",
-              "width": 218,
+              "name": "Desktop account entry",
               "height": 44,
               "fill": "#201B18",
               "cornerRadius": 22,
@@ -9471,23 +9814,23 @@
                 {
                   "type": "icon",
                   "id": "r0HyHs",
-                  "name": "Desktop search icon",
-                  "width": 17,
-                  "height": 17,
-                  "icon": "search",
+                  "name": "Desktop account icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "user-round",
                   "library": "lucide",
                   "fill": "#A8DE42"
                 },
                 {
                   "type": "text",
                   "id": "SFpzd",
-                  "name": "Desktop search hint",
-                  "fill": "#B7A99B",
-                  "content": "Найти рецепт",
+                  "name": "Desktop account label",
+                  "fill": "#F6EBDD",
+                  "content": "Личный кабинет",
                   "lineHeight": 1.17,
                   "fontFamily": "Inter",
                   "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontWeight": "600"
                 }
               ]
             }
@@ -10091,7 +10434,8 @@
                   "content": "Barchello",
                   "lineHeight": 1,
                   "fontFamily": "Playfair Display",
-                  "fontSize": 30
+                  "fontSize": 30,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -10151,8 +10495,7 @@
             {
               "type": "frame",
               "id": "TNHIP",
-              "name": "Desktop search",
-              "width": 218,
+              "name": "Desktop account entry",
               "height": 44,
               "fill": "#201B18",
               "cornerRadius": 22,
@@ -10168,23 +10511,23 @@
                 {
                   "type": "icon",
                   "id": "Pe0ef",
-                  "name": "Desktop search icon",
-                  "width": 17,
-                  "height": 17,
-                  "icon": "search",
+                  "name": "Desktop account icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "user-round",
                   "library": "lucide",
                   "fill": "#A8DE42"
                 },
                 {
                   "type": "text",
                   "id": "jUGHY",
-                  "name": "Desktop search hint",
-                  "fill": "#B7A99B",
-                  "content": "Найти рецепт",
+                  "name": "Desktop account label",
+                  "fill": "#F6EBDD",
+                  "content": "Личный кабинет",
                   "lineHeight": 1.17,
                   "fontFamily": "Inter",
                   "fontSize": 13,
-                  "fontWeight": "normal"
+                  "fontWeight": "600"
                 }
               ]
             }
@@ -11107,6 +11450,1755 @@
           "fill": "#FAF0D7",
           "width": 58,
           "height": 58
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "kCb0p",
+      "x": 2437,
+      "y": 144,
+      "name": "09 · Истории",
+      "clip": true,
+      "width": 390,
+      "fill": "#14110F",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "UBsy2",
+          "name": "Status bar",
+          "width": "fill_container",
+          "height": 62,
+          "padding": [
+            0,
+            22
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "akweH",
+              "name": "Time",
+              "fill": "#F6EBDD",
+              "content": "9:41",
+              "lineHeight": 1.18,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "pBX2N",
+              "name": "System indicators",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "QoAGJ",
+                  "name": "Signal",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "signal",
+                  "library": "lucide",
+                  "fill": "#F6EBDD"
+                },
+                {
+                  "type": "icon",
+                  "id": "yLsiS",
+                  "name": "Battery",
+                  "width": 19,
+                  "height": 19,
+                  "icon": "battery-full",
+                  "library": "lucide",
+                  "fill": "#F6EBDD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Z2FrG",
+          "name": "Stories content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            8,
+            20,
+            28,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "UO2zu",
+              "name": "Stories top bar",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GhZlT",
+                  "name": "Back to catalog",
+                  "fill": "#A8DE42",
+                  "content": "←  КАТАЛОГ",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "m9CKZ",
+                  "name": "Stories top label",
+                  "fill": "#B7A99B",
+                  "content": "БАРНЫЙ ЖУРНАЛ",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CADSL",
+              "name": "Stories introduction",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 9,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "P06uhp",
+                  "name": "Stories headline",
+                  "fill": "#F6EBDD",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "У каждого коктейля есть история.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 36,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "FVFk0",
+                  "name": "Stories description",
+                  "fill": "#B7A99B",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Легенды, документы и неожиданные повороты за привычными рецептами.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Du8BZ",
+              "name": "Featured story image",
+              "clip": true,
+              "width": "fill_container",
+              "height": 220,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "../barcello-assets/generated-1.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 12,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "mI6PJ",
+              "name": "Featured story article",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "javux",
+                  "name": "Story category",
+                  "fill": "#A8DE42",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "ТЕКИЛА · ИСТОРИЯ КОКТЕЙЛЯ",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "lZL3c",
+                  "name": "Story title",
+                  "fill": "#F6EBDD",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Маргарита: история без единственного автора",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 30,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "TBcNZ",
+                  "name": "Story lead",
+                  "fill": "#F6EBDD",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "За смесью текилы, лайма и апельсинового ликёра стоит сразу несколько версий происхождения.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "d6tjV",
+                  "name": "Story paragraph one",
+                  "fill": "#B7A99B",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "В 1936 году в печати уже упоминали Tequila Daisy. «Margarita» по-испански — «маргаритка», и одна из версий связывает её с семейством коктейлей Daisy.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Hfbzj",
+                  "name": "Story paragraph two",
+                  "fill": "#B7A99B",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Позднее бары по обе стороны границы рассказывали свои истории создания напитка. Единственного автора так и не удалось установить. Зато баланс кислого, сладкого и крепкого стал классикой.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RHlj8",
+                  "name": "Story source",
+                  "fill": "#A8DE42",
+                  "content": "Источник: Difford’s Guide ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "F4rFC2",
+              "name": "Story recipe action",
+              "width": "fill_container",
+              "height": 46,
+              "fill": "#A8DE42",
+              "cornerRadius": 23,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sHtpN",
+                  "name": "Story recipe action label",
+                  "fill": "#14110F",
+                  "content": "Открыть рецепт  ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "DXPN6",
+              "name": "Stories divider",
+              "fill": "#463B34",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "VNZaH",
+              "name": "More stories heading",
+              "fill": "#F6EBDD",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Другие истории",
+              "lineHeight": 1.2,
+              "fontFamily": "Playfair Display",
+              "fontSize": 25,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "yvqYf",
+              "name": "Mojito story row",
+              "width": "fill_container",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dIPVa",
+                  "name": "Mojito story thumbnail",
+                  "clip": true,
+                  "width": 94,
+                  "height": 82,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../barcello-assets/cocktail-mojito-cropped.png",
+                    "mode": "fit"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "D133tO",
+                  "name": "Mojito story summary",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YJJJQ",
+                      "name": "Mojito story title",
+                      "fill": "#F6EBDD",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Мохито",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uoaPD",
+                      "name": "Mojito story teaser",
+                      "fill": "#B7A99B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Кубинские корни мяты и рома",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "O9iKr",
+              "name": "Negroni story row",
+              "width": "fill_container",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FDaWb",
+                  "name": "Negroni story thumbnail",
+                  "clip": true,
+                  "width": 94,
+                  "height": 82,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../barcello-assets/cocktail-negroni-isolated.png",
+                    "mode": "fit"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "c9pX8N",
+                  "name": "Negroni story summary",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OMCyj",
+                      "name": "Negroni story title",
+                      "fill": "#F6EBDD",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Негрони",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vXQCK",
+                      "name": "Negroni story teaser",
+                      "fill": "#B7A99B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Как Americano стал крепче",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZexTk",
+              "name": "Whiskey story row",
+              "width": "fill_container",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "micbG",
+                  "name": "Whiskey story thumbnail",
+                  "clip": true,
+                  "width": 94,
+                  "height": 82,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../barcello-assets/cocktail-whiskey-isolated.png",
+                    "mode": "fit"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "GaSYs",
+                  "name": "Whiskey story summary",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m7lUD0",
+                      "name": "Whiskey story title",
+                      "fill": "#F6EBDD",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Виски сауэр",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "h3ZHED",
+                      "name": "Whiskey story teaser",
+                      "fill": "#B7A99B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Большая история маленького сауэра",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "c9COj",
+          "name": "Navigation area",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            12,
+            16,
+            18,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "COolI",
+              "name": "Bottom navigation",
+              "width": "fill_container",
+              "height": 62,
+              "fill": "#28211DD9",
+              "cornerRadius": 31,
+              "gap": 4,
+              "padding": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jzZMx",
+                  "name": "Каталог",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#2B4818",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 2,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "g5zqN",
+                      "name": "Каталог icon",
+                      "width": 19,
+                      "height": 19,
+                      "icon": "compass",
+                      "library": "lucide",
+                      "fill": "#A8DE42"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aKVm9",
+                      "name": "Каталог label",
+                      "fill": "#A8DE42",
+                      "content": "Каталог",
+                      "lineHeight": 1.18,
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TUKX5",
+                  "name": "Мой бар",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#28211D",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 2,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "XtmWF",
+                      "name": "Мой бар icon",
+                      "width": 19,
+                      "height": 19,
+                      "icon": "wine",
+                      "library": "lucide",
+                      "fill": "#B7A99B"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bdc9h",
+                      "name": "Мой бар label",
+                      "fill": "#B7A99B",
+                      "content": "Мой бар",
+                      "lineHeight": 1.18,
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jiVQz",
+                  "name": "Избранное",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#28211D",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 2,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "UkgnE",
+                      "name": "Избранное icon",
+                      "width": 19,
+                      "height": 19,
+                      "icon": "bookmark",
+                      "library": "lucide",
+                      "fill": "#B7A99B"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n2hVh",
+                      "name": "Избранное label",
+                      "fill": "#B7A99B",
+                      "content": "Избранное",
+                      "lineHeight": 1.18,
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "x9wqHe",
+      "x": 3608,
+      "y": 2500,
+      "name": "09 · Истории · десктоп",
+      "clip": true,
+      "width": 1440,
+      "fill": "#14110F",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "eYOFn",
+          "name": "Desktop header",
+          "width": "fill_container",
+          "height": 92,
+          "fill": "#100F0D",
+          "padding": [
+            0,
+            72
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "za1ww",
+              "name": "Desktop brand",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Wt7Cb",
+                  "name": "Barchello logo desktop",
+                  "clip": true,
+                  "width": 68,
+                  "height": 68,
+                  "fill": "#07080A",
+                  "cornerRadius": 34,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "id": "rT4K9",
+                      "type": "ref",
+                      "ref": "h3tDxo",
+                      "name": "Логотип Barchello · компонент",
+                      "x": 0,
+                      "y": 0,
+                      "width": 68,
+                      "height": 68,
+                      "descendants": {
+                        "Fx2kX": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "bKogT": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "NzNHA": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "B7dtb8": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "mKRyk": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "I2vLsN": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "C39SAh": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "niZxf": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "qGxo0": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "nPfjn": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "nKv9A": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "Hbjw1": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "XiF1r": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "Isn5m": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "j1ocg1": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "boVcw": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "B0mUSP": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "ZiWTw": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "YOtsh": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "jHcic": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "e66DgE": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "aDERN": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "EnHT7": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "qUHTS": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "Gjr0u": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "fbJ3z": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "fIyFv": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "s97PDs": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "JioQZ": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "PCW0r": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "DEzM9": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "r2CkS6": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "vBmP4": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "PvS3g": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "R6peS": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "z8Zopc": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "YRRqI": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "uqIQw": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "I9Fmp": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "bLXM7": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "hu5Jj": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "AfWEQ": {
+                          "width": 68,
+                          "height": 68
+                        },
+                        "x0MMos": {
+                          "width": 68,
+                          "height": 68
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "KQ5AI",
+                  "name": "Desktop brand caption",
+                  "fill": "#A8DE42",
+                  "content": "Barchello",
+                  "lineHeight": 1,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 30,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cZGAf",
+              "name": "Desktop navigation",
+              "gap": 42,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "H4kuyM",
+                  "name": "КОКТЕЙЛИ",
+                  "fill": "#B7A99B",
+                  "content": "КОКТЕЙЛИ",
+                  "lineHeight": 1.17,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Vbu3n",
+                  "name": "МОЙ БАР",
+                  "fill": "#B7A99B",
+                  "content": "МОЙ БАР",
+                  "lineHeight": 1.17,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "jZKBA",
+                  "name": "ИСТОРИИ",
+                  "fill": "#A8DE42",
+                  "content": "ИСТОРИИ",
+                  "lineHeight": 1.17,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "iBtkn",
+                  "name": "ИЗБРАННОЕ",
+                  "fill": "#B7A99B",
+                  "content": "ИЗБРАННОЕ",
+                  "lineHeight": 1.17,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FlAvo",
+              "name": "Desktop account entry",
+              "height": 44,
+              "fill": "#201B18",
+              "cornerRadius": 22,
+              "stroke": "#463B34",
+              "strokeWidth": 1,
+              "gap": 10,
+              "padding": [
+                0,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "DW43i",
+                  "name": "Desktop account icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "user-round",
+                  "library": "lucide",
+                  "fill": "#A8DE42"
+                },
+                {
+                  "type": "text",
+                  "id": "WSlVM",
+                  "name": "Desktop account label",
+                  "fill": "#F6EBDD",
+                  "content": "Личный кабинет",
+                  "lineHeight": 1.17,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vo3uG",
+          "name": "Desktop stories content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 34,
+          "padding": [
+            52,
+            80,
+            64,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "XPTQa",
+              "name": "Desktop stories introduction",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "S4eohI",
+                  "name": "Stories eyebrow",
+                  "fill": "#A8DE42",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "БАРНЫЙ ЖУРНАЛ  /  ИСТОРИИ КОКТЕЙЛЕЙ",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "rJdbV",
+                  "name": "Stories headline",
+                  "fill": "#F6EBDD",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Истории за барной стойкой",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 58,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "f2DDp4",
+                  "name": "Stories description",
+                  "fill": "#B7A99B",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "У каждого знакомого рецепта есть прошлое — иногда документированное, иногда сотканное из легенд.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "E71AKU",
+              "name": "Featured story spread",
+              "width": "fill_container",
+              "gap": 64,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uXcBu",
+                  "name": "Featured story image",
+                  "clip": true,
+                  "width": 530,
+                  "height": 440,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../barcello-assets/generated-1.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 12,
+                  "layout": "none"
+                },
+                {
+                  "type": "frame",
+                  "id": "SyRBn",
+                  "name": "Featured story article",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 17,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kAHXe",
+                      "name": "Story category",
+                      "fill": "#A8DE42",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ТЕКИЛА  ·  ИСТОРИЯ КОКТЕЙЛЯ",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ooKsL",
+                      "name": "Story title",
+                      "fill": "#F6EBDD",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Маргарита: история без единственного автора",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 42,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m2D9vj",
+                      "name": "Story lead",
+                      "fill": "#F6EBDD",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "За смесью текилы, лайма и апельсинового ликёра стоит сразу несколько версий происхождения.",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M5lPoN",
+                      "name": "Story paragraph one",
+                      "fill": "#B7A99B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "В 1936 году в печати уже упоминали Tequila Daisy. «Margarita» по-испански — «маргаритка», и одна из версий связывает её с семейством коктейлей Daisy.",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DMwce",
+                      "name": "Story paragraph two",
+                      "fill": "#B7A99B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Позднее бары по обе стороны границы рассказывали свои истории создания напитка. Единственного автора так и не удалось установить. Зато баланс кислого, сладкого и крепкого стал классикой.",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O7hWE",
+                      "name": "Story source",
+                      "fill": "#A8DE42",
+                      "content": "Источник: Difford’s Guide ↗",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cdaAa",
+                      "name": "Story recipe action",
+                      "width": 184,
+                      "height": 46,
+                      "fill": "#A8DE42",
+                      "cornerRadius": 23,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SKWth",
+                          "name": "Story recipe action label",
+                          "fill": "#14110F",
+                          "content": "Открыть рецепт  ↗",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "CMKCr",
+              "name": "Stories divider",
+              "fill": "#463B34",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "B8OAs",
+              "name": "More stories heading",
+              "fill": "#F6EBDD",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Ещё истории",
+              "lineHeight": 1.2,
+              "fontFamily": "Playfair Display",
+              "fontSize": 30,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "mYHQo",
+              "name": "More stories",
+              "width": "fill_container",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "V8PuAM",
+                  "name": "Mojito story card",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "F0fpgm",
+                      "name": "Mojito story thumbnail",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../barcello-assets/cocktail-mojito-cropped.png",
+                        "mode": "fit"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "gAroF",
+                      "name": "Mojito story title",
+                      "fill": "#F6EBDD",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Мохито: кубинские корни",
+                      "lineHeight": 1.2,
+                      "textAlign": "center",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 21,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j6Q4zF",
+                      "name": "Mojito story teaser",
+                      "fill": "#B7A99B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Мята, лайм и долгий путь к знакомому рецепту.",
+                      "lineHeight": 1.2,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gQb6j",
+                  "name": "Negroni story card",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wwX1T",
+                      "name": "Negroni story thumbnail",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../barcello-assets/cocktail-negroni-isolated.png",
+                        "mode": "fit"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "hNmtT",
+                      "name": "Negroni story title",
+                      "fill": "#F6EBDD",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Негрони: другая версия Americano",
+                      "lineHeight": 1.2,
+                      "textAlign": "center",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 21,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BHAfP",
+                      "name": "Negroni story teaser",
+                      "fill": "#B7A99B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Как в итальянском аперитиве появился джин.",
+                      "lineHeight": 1.2,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jlSqk",
+                  "name": "Whiskey story card",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EVISA",
+                      "name": "Whiskey story thumbnail",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 170,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../barcello-assets/cocktail-whiskey-isolated.png",
+                        "mode": "fit"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "gBmh0",
+                      "name": "Whiskey story title",
+                      "fill": "#F6EBDD",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Виски сауэр: формула баланса",
+                      "lineHeight": 1.2,
+                      "textAlign": "center",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 21,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qxl8r",
+                      "name": "Whiskey story teaser",
+                      "fill": "#B7A99B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Почему три ингредиента пережили полтора века.",
+                      "lineHeight": 1.2,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ccB6A",
+      "x": 4148,
+      "y": 144,
+      "name": "Плакат · Маргарита · винтажный рецепт",
+      "clip": true,
+      "width": 900,
+      "height": 1350,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "../barcello-assets/margarita-recipe-poster.jpg",
+        "mode": "fit"
+      },
+      "layout": "vertical",
+      "padding": 52,
+      "children": [
+        {
+          "type": "frame",
+          "id": "Y5Y2n5",
+          "x": 52,
+          "y": 52,
+          "name": "Шапка плаката",
+          "enabled": false,
+          "width": 796,
+          "height": 36,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "OE90b",
+              "name": "Название бренда",
+              "fill": "#D7B575",
+              "content": "BARCHELLO",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 21,
+              "fontWeight": "700",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "gREHP",
+              "name": "Серия плакатов",
+              "fill": "#D7B575",
+              "content": "КОЛЛЕКЦИЯ КОКТЕЙЛЕЙ  ·  № 01",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "rFWS4",
+          "x": 52,
+          "y": 88,
+          "name": "Верхняя линейка",
+          "enabled": false,
+          "fill": "#B58E56",
+          "width": 796,
+          "height": 2
+        },
+        {
+          "type": "frame",
+          "id": "IkPSd",
+          "x": 52,
+          "y": 90,
+          "name": "Название плаката",
+          "enabled": false,
+          "width": 796,
+          "height": 190,
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "o4H3B6",
+              "name": "Маргарита заголовок",
+              "fill": "#F4E7C8",
+              "content": "МАРГАРИТА",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 101,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "sCFkS",
+              "name": "Маргарита подзаголовок",
+              "fill": "#D7B575",
+              "content": "ТЕКИЛА  ·  ЛАЙМ  ·  АПЕЛЬСИНОВЫЙ ЛИКЁР",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "letterSpacing": 1.5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Oj5kR",
+          "x": 52,
+          "y": 280,
+          "name": "Винтажная иллюстрация Маргариты",
+          "enabled": false,
+          "clip": true,
+          "width": 796,
+          "height": 555,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "../barcello-assets/margarita-vintage-illustration.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "JbItl",
+          "x": 52,
+          "y": 835,
+          "name": "Подпись к иллюстрации",
+          "enabled": false,
+          "width": 796,
+          "height": 55,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ypCD9",
+              "name": "Французская подпись",
+              "fill": "#D7B575",
+              "content": "THE CLASSIC SOUR",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 22,
+              "fontWeight": "normal",
+              "letterSpacing": 1,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "xQ6lG",
+              "name": "Дата плаката",
+              "fill": "#D7B575",
+              "content": "EST. 1930s",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GVVSx",
+          "x": 52,
+          "y": 890,
+          "name": "Рецептура плаката",
+          "enabled": false,
+          "width": 796,
+          "height": 372,
+          "fill": "#E8D7B4",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            28,
+            34
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "BFTXJ",
+              "name": "Заголовок рецептуры",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YtTIv",
+                  "name": "Рецепт на одну порцию",
+                  "fill": "#38241B",
+                  "content": "РЕЦЕПТ НА 1 ПОРЦИЮ",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 27,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "OB1RP",
+                  "name": "Способ и время",
+                  "fill": "#8D4730",
+                  "content": "05 МИН  /  ШЕЙК",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "hBq1Z",
+              "name": "Линейка рецептуры",
+              "fill": "#AD8D68",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "ZGe4q",
+              "name": "Состав и приготовление",
+              "width": "fill_container",
+              "gap": 34,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JS3tj",
+                  "name": "Ингредиенты плаката",
+                  "width": 334,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O8jTsS",
+                      "name": "Состав заголовок",
+                      "fill": "#8D4730",
+                      "content": "СОСТАВ",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "t8xeC",
+                      "name": "Ингредиент 1",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "b7nbO",
+                          "name": "Название ингредиента 1",
+                          "fill": "#38241B",
+                          "content": "Текила 100% агавы",
+                          "fontFamily": "Cormorant Garamond",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tOjyR",
+                          "name": "Количество 1",
+                          "fill": "#8D4730",
+                          "content": "50 мл",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K5YoeB",
+                      "name": "Ингредиент 2",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TD4bm",
+                          "name": "Название ингредиента 2",
+                          "fill": "#38241B",
+                          "content": "Трипл-сек",
+                          "fontFamily": "Cormorant Garamond",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EC2EU",
+                          "name": "Количество 2",
+                          "fill": "#8D4730",
+                          "content": "20 мл",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gTJIl",
+                      "name": "Ингредиент 3",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h1P60",
+                          "name": "Название ингредиента 3",
+                          "fill": "#38241B",
+                          "content": "Свежий сок лайма",
+                          "fontFamily": "Cormorant Garamond",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xqnhL",
+                          "name": "Количество 3",
+                          "fill": "#8D4730",
+                          "content": "15 мл",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sIdj3",
+                  "name": "Приготовление плаката",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j7DhN",
+                      "name": "Приготовление заголовок",
+                      "fill": "#8D4730",
+                      "content": "ПРИГОТОВЛЕНИЕ",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "E0sLS",
+                      "name": "Шаги приготовления",
+                      "fill": "#38241B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Влейте ингредиенты в шейкер со льдом. Хорошо встряхните и процедите в охлаждённый коктейльный бокал.",
+                      "lineHeight": 1.05,
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 23,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G1AsOt",
+                      "name": "Гарнир плаката",
+                      "fill": "#8D4730",
+                      "content": "Соляная кромка — по желанию.",
+                      "fontFamily": "Cormorant Garamond",
+                      "fontSize": 17,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hKaT9",
+          "x": 52,
+          "y": 1262,
+          "name": "Подвал плаката",
+          "enabled": false,
+          "width": 796,
+          "height": 75,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "sh8nr",
+              "name": "Финальная фраза",
+              "fill": "#D7B575",
+              "content": "ИСКУССТВО ПРОСТЫХ СОЧЕТАНИЙ",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "Ihiys",
+              "name": "Логотип плаката",
+              "fill": "#D7B575",
+              "content": "B.",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 42,
+              "fontWeight": "700"
+            }
+          ]
         }
       ]
     }
