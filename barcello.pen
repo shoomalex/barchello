@@ -13201,6 +13201,54 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "uJMbs",
+      "x": 5128,
+      "y": 144,
+      "name": "Плакат · Мохито · винтажный рецепт",
+      "clip": true,
+      "width": 900,
+      "height": 1350,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "../barcello-assets/mojito-deco-recipe-poster.jpg",
+        "mode": "fit"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "ubeC7",
+      "x": 6108,
+      "y": 144,
+      "name": "Плакат · Негрони · винтажный рецепт",
+      "clip": true,
+      "width": 900,
+      "height": 1350,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "../barcello-assets/negroni-deco-recipe-poster.jpg",
+        "mode": "fit"
+      }
+    },
+    {
+      "type": "frame",
+      "id": "zAeFt",
+      "x": 7088,
+      "y": 144,
+      "name": "Плакат · Виски сауэр · винтажный рецепт",
+      "clip": true,
+      "width": 900,
+      "height": 1350,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "../barcello-assets/whiskey-deco-recipe-poster.jpg",
+        "mode": "fit"
+      }
     }
   ],
   "fileToken": "def1b598-3fac-4f9f-b05a-062e04fec97a"
