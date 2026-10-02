@@ -13249,7 +13249,3028 @@
         "url": "../barcello-assets/whiskey-deco-recipe-poster.jpg",
         "mode": "fit"
       }
+    },
+    {
+      "type": "frame",
+      "id": "k3AGlY",
+      "x": 8148,
+      "y": 144,
+      "name": "00 · Дизайн-система Barchello",
+      "clip": true,
+      "width": 1600,
+      "fill": "$bg",
+      "layout": "vertical",
+      "gap": 56,
+      "padding": [
+        72,
+        80
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "b9ETcN",
+          "name": "Обложка системы",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "BjFRx",
+              "name": "Идентичность",
+              "width": 930,
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RmRbP",
+                  "name": "Этикетка",
+                  "fill": "$accent",
+                  "content": "BARCHELLO  /  DESIGN SYSTEM",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "M6SJr",
+                  "name": "Главный заголовок",
+                  "fill": "$text-primary",
+                  "content": "Основа для новых экранов",
+                  "fontFamily": "$font-display",
+                  "fontSize": 62,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "jMMz0",
+                  "name": "Вводное описание",
+                  "fill": "$text-secondary",
+                  "content": "Компоненты, состояния, цвета и типографика продукта — единый источник для дальнейшей работы.",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SGIDL",
+              "name": "Знак бренда",
+              "width": 220,
+              "height": 130,
+              "fill": "$surface",
+              "cornerRadius": 18,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "csFa6",
+                  "type": "ref",
+                  "ref": "h3tDxo",
+                  "name": "Barchello logo instance",
+                  "width": 96,
+                  "height": 96
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "N0g2b",
+          "name": "Разделитель обложки",
+          "fill": "$border",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "TuJnh",
+          "name": "Цвета",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "EnqIP",
+              "name": "Цвета индекс",
+              "fill": "$accent",
+              "content": "01 / FOUNDATIONS",
+              "fontFamily": "$font-ui",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "dGvT4",
+              "name": "Цвета заголовок",
+              "fill": "$text-primary",
+              "content": "Цвета",
+              "fontFamily": "$font-display",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "N7HQBA",
+              "name": "Цвета описание",
+              "fill": "$text-secondary",
+              "content": "Семантические цвета интерфейса. Светлый текст на тёмных поверхностях, лаймовый — для действия и акцента.",
+              "fontFamily": "$font-ui",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "qM5wQ",
+              "name": "Палитра · ряд 1",
+              "width": "fill_container",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H1XIk",
+                  "name": "Цвет · Фон",
+                  "width": 270,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cbalg",
+                      "name": "Образец · Фон",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$bg",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "IfBPU",
+                      "name": "Название · Фон",
+                      "fill": "$text-primary",
+                      "content": "Фон",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "L2Yqo",
+                      "name": "Значение · Фон",
+                      "fill": "$text-secondary",
+                      "content": "#14110F  ·  $bg",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Idcph",
+                  "name": "Цвет · Поверхность",
+                  "width": 270,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lBZdw",
+                      "name": "Образец · Поверхность",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$surface",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "jUBOb",
+                      "name": "Название · Поверхность",
+                      "fill": "$text-primary",
+                      "content": "Поверхность",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KKvXi",
+                      "name": "Значение · Поверхность",
+                      "fill": "$text-secondary",
+                      "content": "#201B18  ·  $surface",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h8QRv",
+                  "name": "Цвет · Навигация",
+                  "width": 270,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "R9a9Yd",
+                      "name": "Образец · Навигация",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$surface-raised",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "So6Sh",
+                      "name": "Название · Навигация",
+                      "fill": "$text-primary",
+                      "content": "Навигация",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "h0t42s",
+                      "name": "Значение · Навигация",
+                      "fill": "$text-secondary",
+                      "content": "#28211D  ·  $surface-raised",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wutEL",
+                  "name": "Цвет · Граница",
+                  "width": 270,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "r3LiVq",
+                      "name": "Образец · Граница",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$border",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "T4Re73",
+                      "name": "Название · Граница",
+                      "fill": "$text-primary",
+                      "content": "Граница",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pLuLI",
+                      "name": "Значение · Граница",
+                      "fill": "$text-secondary",
+                      "content": "#463B34  ·  $border",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R90Ing",
+                  "name": "Цвет · Основной текст",
+                  "width": 270,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "C7CDNa",
+                      "name": "Образец · Основной текст",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$text-primary",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "KXUwe",
+                      "name": "Название · Основной текст",
+                      "fill": "$text-primary",
+                      "content": "Основной текст",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VcejY",
+                      "name": "Значение · Основной текст",
+                      "fill": "$text-secondary",
+                      "content": "#F6EBDD  ·  $text-primary",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SAdRd",
+              "name": "Палитра · ряд 2",
+              "width": "fill_container",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lNKZy",
+                  "name": "Цвет · Вторичный текст",
+                  "width": 270,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Q2NOK8",
+                      "name": "Образец · Вторичный текст",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$text-secondary",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "puhP9",
+                      "name": "Название · Вторичный текст",
+                      "fill": "$text-primary",
+                      "content": "Вторичный текст",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n0AnpM",
+                      "name": "Значение · Вторичный текст",
+                      "fill": "$text-secondary",
+                      "content": "#B7A99B  ·  $text-secondary",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NhDXm",
+                  "name": "Цвет · Акцент",
+                  "width": 270,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QVdrw",
+                      "name": "Образец · Акцент",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$accent",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "irO5r",
+                      "name": "Название · Акцент",
+                      "fill": "$text-primary",
+                      "content": "Акцент",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pcJxl",
+                      "name": "Значение · Акцент",
+                      "fill": "$text-secondary",
+                      "content": "#A8DE42  ·  $accent",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xsmdl",
+                  "name": "Цвет · Акцент тёмный",
+                  "width": 270,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "V9GJqx",
+                      "name": "Образец · Акцент тёмный",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$accent-deep",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "I9CGoe",
+                      "name": "Название · Акцент тёмный",
+                      "fill": "$text-primary",
+                      "content": "Акцент тёмный",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kEJ42",
+                      "name": "Значение · Акцент тёмный",
+                      "fill": "$text-secondary",
+                      "content": "#35591B  ·  $accent-deep",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h5j20",
+                  "name": "Цвет · Тёплый светлый",
+                  "width": 270,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dcQ1z",
+                      "name": "Образец · Тёплый светлый",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$cream",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "jFak2",
+                      "name": "Название · Тёплый светлый",
+                      "fill": "$text-primary",
+                      "content": "Тёплый светлый",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Rwra4",
+                      "name": "Значение · Тёплый светлый",
+                      "fill": "$text-secondary",
+                      "content": "#FAF0D7  ·  $cream",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "J8Ffh",
+                  "name": "Цвет · Ошибка",
+                  "width": 270,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EeICA",
+                      "name": "Образец · Ошибка",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": "$error",
+                      "cornerRadius": 10,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "X4AGW",
+                      "name": "Название · Ошибка",
+                      "fill": "$text-primary",
+                      "content": "Ошибка",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rOMEo",
+                      "name": "Значение · Ошибка",
+                      "fill": "$text-secondary",
+                      "content": "#D87963  ·  $error",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "a32OF",
+          "name": "Типографика",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "cyAQA",
+              "name": "Типографика индекс",
+              "fill": "$accent",
+              "content": "02 / FOUNDATIONS",
+              "fontFamily": "$font-ui",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "VU7N4",
+              "name": "Типографика заголовок",
+              "fill": "$text-primary",
+              "content": "Типографика",
+              "fontFamily": "$font-display",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "bHo15",
+              "name": "Типографика описание",
+              "fill": "$text-secondary",
+              "content": "Playfair Display задаёт характер заголовкам; Inter сохраняет точность и читаемость интерфейса.",
+              "fontFamily": "$font-ui",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "w3aGn",
+              "name": "Типографическая шкала",
+              "width": "fill_container",
+              "gap": 52,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "y4r2LE",
+                  "name": "Дисплейная шкала",
+                  "width": 670,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wqt6d",
+                      "name": "Шрифт · Display / 68",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "A5yza",
+                          "name": "Размер · Display / 68",
+                          "fill": "$accent",
+                          "content": "Display / 68  ·  Playfair Display",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vIXQv",
+                          "name": "Пример · Display / 68",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Коктейльный вечер",
+                          "fontFamily": "$font-display",
+                          "fontSize": 68,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MExmI",
+                      "name": "Шрифт · H1 / 49",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "s2d55e",
+                          "name": "Размер · H1 / 49",
+                          "fill": "$accent",
+                          "content": "H1 / 49  ·  Playfair Display",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "G2OeuH",
+                          "name": "Пример · H1 / 49",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Истории бара",
+                          "fontFamily": "$font-display",
+                          "fontSize": 49,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F0Z7dK",
+                      "name": "Шрифт · H2 / 37",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rh1Fw",
+                          "name": "Размер · H2 / 37",
+                          "fill": "$accent",
+                          "content": "H2 / 37  ·  Playfair Display",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pERem",
+                          "name": "Пример · H2 / 37",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Маргарита",
+                          "fontFamily": "$font-display",
+                          "fontSize": 37,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HtoOZ",
+                      "name": "Шрифт · H3 / 30",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "o2ByDS",
+                          "name": "Размер · H3 / 30",
+                          "fill": "$accent",
+                          "content": "H3 / 30  ·  Playfair Display",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "G6ijm1",
+                          "name": "Пример · H3 / 30",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Новые открытия",
+                          "fontFamily": "$font-display",
+                          "fontSize": 30,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bQrTp",
+                  "name": "Интерфейсная шкала",
+                  "width": 670,
+                  "layout": "vertical",
+                  "gap": 19,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Yudwd",
+                      "name": "Шрифт · Lead / 17",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UAOAG",
+                          "name": "Размер · Lead / 17",
+                          "fill": "$text-secondary",
+                          "content": "Lead / 17  ·  Inter",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cAeOC",
+                          "name": "Пример · Lead / 17",
+                          "fill": "$text-primary",
+                          "content": "Свежая мята, лайм и лёгкий ром.",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CK8Nq",
+                      "name": "Шрифт · Body / 14",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oF3Nd",
+                          "name": "Размер · Body / 14",
+                          "fill": "$text-secondary",
+                          "content": "Body / 14  ·  Inter",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pSZX4",
+                          "name": "Пример · Body / 14",
+                          "fill": "$text-secondary",
+                          "content": "Точный баланс вкуса в каждом рецепте.",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pmu3y",
+                      "name": "Шрифт · Label / 13",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zZYd1",
+                          "name": "Размер · Label / 13",
+                          "fill": "$text-secondary",
+                          "content": "Label / 13  ·  Inter",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eVHQv",
+                          "name": "Пример · Label / 13",
+                          "fill": "$text-primary",
+                          "content": "Смотреть рецепт",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mmqYQ",
+                      "name": "Шрифт · Meta / 10",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hNT92",
+                          "name": "Размер · Meta / 10",
+                          "fill": "$text-secondary",
+                          "content": "Meta / 10  ·  Inter",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "L1tr3",
+                          "name": "Пример · Meta / 10",
+                          "fill": "$accent",
+                          "content": "КЛАССИКА  ·  5 МИН",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 10,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OdyBC",
+          "name": "Кнопки",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "AG9UD",
+              "name": "Кнопки индекс",
+              "fill": "$accent",
+              "content": "03 / COMPONENTS",
+              "fontFamily": "$font-ui",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "TFuFv",
+              "name": "Кнопки заголовок",
+              "fill": "$text-primary",
+              "content": "Кнопки",
+              "fontFamily": "$font-display",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "PQgtF",
+              "name": "Кнопки описание",
+              "fill": "$text-secondary",
+              "content": "Единая высота действия — 50 px. Вторичное действие сохраняет контраст на тёмной поверхности.",
+              "fontFamily": "$font-ui",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "triiW",
+              "name": "Основные действия",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "gap": 28,
+              "padding": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pWzjb",
+                  "name": "Основная кнопка / default",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "S7JVy",
+                      "name": "Основная кнопка / default подпись",
+                      "fill": "$text-secondary",
+                      "content": "Primary · default",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "g3EFH2",
+                      "name": "Button / Primary",
+                      "reusable": true,
+                      "width": 190,
+                      "height": 50,
+                      "fill": "$accent",
+                      "cornerRadius": 25,
+                      "gap": 9,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "njpzW",
+                          "name": "Button label",
+                          "fill": "$bg",
+                          "content": "Смотреть рецепт",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "yT4in",
+                          "name": "Button arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "$bg"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b06U9",
+                  "name": "Вторичная кнопка / default",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vcVR8",
+                      "name": "Вторичная кнопка / default подпись",
+                      "fill": "$text-secondary",
+                      "content": "Secondary · default",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "v3sFnv",
+                      "name": "Button / Secondary",
+                      "reusable": true,
+                      "width": 190,
+                      "height": 50,
+                      "fill": "$surface-raised",
+                      "cornerRadius": 25,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dbBsY",
+                          "name": "Secondary label",
+                          "fill": "$text-primary",
+                          "content": "Все коктейли",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RbB3K",
+                  "name": "Текстовое действие",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sRqjL",
+                      "name": "Текстовое действие подпись",
+                      "fill": "$text-secondary",
+                      "content": "Ghost · default",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K3q2p",
+                      "name": "Button / Ghost",
+                      "reusable": true,
+                      "width": 190,
+                      "height": 50,
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OMa60",
+                          "name": "Ghost label",
+                          "fill": "$accent",
+                          "content": "Смотреть историю",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "EHwiL",
+                          "name": "Ghost arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "L3Bnn",
+                  "name": "Иконка действия",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "G9AgU",
+                      "name": "Иконка действия подпись",
+                      "fill": "$text-secondary",
+                      "content": "Icon · default",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R0YwsF",
+                      "name": "Button / Icon",
+                      "reusable": true,
+                      "width": 50,
+                      "height": 50,
+                      "fill": "$surface-raised",
+                      "cornerRadius": 25,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Sc7SW",
+                          "name": "Bookmark icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "bookmark",
+                          "library": "lucide",
+                          "fill": "$text-primary"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "h43b9I",
+              "name": "Состояния основной кнопки",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "gap": 28,
+              "padding": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s7GYs5",
+                  "name": "Кнопка / Default",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N9v8ZR",
+                      "name": "Кнопка / Default подпись",
+                      "fill": "$text-secondary",
+                      "content": "Default",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "WYF5j",
+                      "type": "ref",
+                      "ref": "g3EFH2",
+                      "name": "Primary / Default",
+                      "width": 190,
+                      "fill": "$accent",
+                      "opacity": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xggKa",
+                  "name": "Кнопка / Hover",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uU2Xx",
+                      "name": "Кнопка / Hover подпись",
+                      "fill": "$text-secondary",
+                      "content": "Hover",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "mXvJ2",
+                      "type": "ref",
+                      "ref": "g3EFH2",
+                      "name": "Primary / Hover",
+                      "width": 190,
+                      "fill": "$accent-hover",
+                      "opacity": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pPYLd",
+                  "name": "Кнопка / Pressed",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aEs4m",
+                      "name": "Кнопка / Pressed подпись",
+                      "fill": "$text-secondary",
+                      "content": "Pressed",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "g79kVm",
+                      "type": "ref",
+                      "ref": "g3EFH2",
+                      "name": "Primary / Pressed",
+                      "width": 190,
+                      "fill": "$accent-pressed",
+                      "opacity": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yqh68",
+                  "name": "Кнопка / Disabled",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JLEUm",
+                      "name": "Кнопка / Disabled подпись",
+                      "fill": "$text-secondary",
+                      "content": "Disabled",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "a9OHS6",
+                      "type": "ref",
+                      "ref": "g3EFH2",
+                      "name": "Primary / Disabled",
+                      "width": 190,
+                      "fill": "$accent-deep",
+                      "opacity": 0.58
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yBADK",
+          "name": "Поля ввода",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "w91gyD",
+              "name": "Поля ввода индекс",
+              "fill": "$accent",
+              "content": "04 / COMPONENTS",
+              "fontFamily": "$font-ui",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "bjO3c",
+              "name": "Поля ввода заголовок",
+              "fill": "$text-primary",
+              "content": "Поля ввода",
+              "fontFamily": "$font-display",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Wbf85",
+              "name": "Поля ввода описание",
+              "fill": "$text-secondary",
+              "content": "Состояния поля и подписи ошибок. Акцентная рамка обозначает фокус.",
+              "fontFamily": "$font-ui",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "D8Oox1",
+              "name": "Состояния поиска",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "gap": 28,
+              "padding": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mppMp",
+                  "name": "Поле / Default",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nMzDZ",
+                      "name": "Поле / Default подпись",
+                      "fill": "$text-secondary",
+                      "content": "Default",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "I6uj0T",
+                      "name": "Input / Default",
+                      "reusable": true,
+                      "width": 320,
+                      "height": 52,
+                      "fill": "$surface-raised",
+                      "cornerRadius": 12,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "bM8VW",
+                          "name": "Input icon / Default",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "search",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Wj5tr",
+                          "name": "Input text / Default",
+                          "fill": "$text-secondary",
+                          "content": "Найти коктейль",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lod55",
+                  "name": "Поле / Focused",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dhVMv",
+                      "name": "Поле / Focused подпись",
+                      "fill": "$text-secondary",
+                      "content": "Focused",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IiU3M",
+                      "name": "Input / Focused",
+                      "reusable": true,
+                      "width": 320,
+                      "height": 52,
+                      "fill": "$surface-raised",
+                      "cornerRadius": 12,
+                      "stroke": "$accent",
+                      "strokeWidth": 2,
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "tMai1",
+                          "name": "Input icon / Focused",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "search",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GxWF3",
+                          "name": "Input text / Focused",
+                          "fill": "$text-primary",
+                          "content": "Маргарита",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "a3K2SO",
+                  "name": "Поле / Error",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SrtuB",
+                      "name": "Поле / Error подпись",
+                      "fill": "$text-secondary",
+                      "content": "Error",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u27b7g",
+                      "name": "Input / Error",
+                      "reusable": true,
+                      "width": 320,
+                      "height": 52,
+                      "fill": "$surface-raised",
+                      "cornerRadius": 12,
+                      "stroke": "$error",
+                      "strokeWidth": 1,
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "HsicH",
+                          "name": "Input icon / Error",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "search",
+                          "library": "lucide",
+                          "fill": "$error"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UXAIm",
+                          "name": "Input text / Error",
+                          "fill": "$text-secondary",
+                          "content": "Маргарита",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "qM1I6",
+                      "name": "Helper / Error",
+                      "fill": "$error",
+                      "content": "Проверьте запрос",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v2zWyj",
+                  "name": "Поле / Disabled",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "s29YE",
+                      "name": "Поле / Disabled подпись",
+                      "fill": "$text-secondary",
+                      "content": "Disabled",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SnZDo",
+                      "name": "Input / Disabled",
+                      "reusable": true,
+                      "opacity": 0.5,
+                      "width": 320,
+                      "height": 52,
+                      "fill": "$surface-raised",
+                      "cornerRadius": 12,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "v1dAYX",
+                          "name": "Input icon / Disabled",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "search",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "u0der",
+                          "name": "Input text / Disabled",
+                          "fill": "$text-secondary",
+                          "content": "Поиск недоступен",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PrtXB",
+          "name": "Выбор и навигация",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "ahw5q",
+              "name": "Выбор индекс",
+              "fill": "$accent",
+              "content": "05 / COMPONENTS",
+              "fontFamily": "$font-ui",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "U7FXPS",
+              "name": "Выбор заголовок",
+              "fill": "$text-primary",
+              "content": "Выбор и навигация",
+              "fontFamily": "$font-display",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "faXgU",
+              "name": "Выбор описание",
+              "fill": "$text-secondary",
+              "content": "Чипы для ингредиентов, одиночный фильтр и мобильная навигация.",
+              "fontFamily": "$font-ui",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "cNBGg",
+              "name": "Чипы ингредиентов",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "gap": 38,
+              "padding": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ykTi1",
+                  "name": "Chip / Default пример",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "S3SeF",
+                      "name": "Chip / Default подпись",
+                      "fill": "$text-secondary",
+                      "content": "Default",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xZsg0",
+                      "name": "Chip / Default",
+                      "reusable": true,
+                      "height": 44,
+                      "fill": "$surface-raised",
+                      "cornerRadius": 22,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        17
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JwogG",
+                          "name": "Chip label / Default",
+                          "fill": "$text-primary",
+                          "content": "Текила",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T5MVGS",
+                  "name": "Chip / Selected пример",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DTeze",
+                      "name": "Chip / Selected подпись",
+                      "fill": "$text-secondary",
+                      "content": "Selected",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ndWXL",
+                      "name": "Chip / Selected",
+                      "reusable": true,
+                      "height": 44,
+                      "fill": "$accent-deep",
+                      "cornerRadius": 22,
+                      "stroke": "$accent",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        17
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Gqcmr",
+                          "name": "Chip check / Selected",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "check",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Iy7ZY",
+                          "name": "Chip label / Selected",
+                          "fill": "$text-primary",
+                          "content": "Бурбон",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UghFx",
+                  "name": "Chip / Disabled пример",
+                  "width": 220,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YXZNQ",
+                      "name": "Chip / Disabled подпись",
+                      "fill": "$text-secondary",
+                      "content": "Disabled",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wstZ6",
+                      "name": "Chip / Disabled",
+                      "reusable": true,
+                      "opacity": 0.45,
+                      "height": 44,
+                      "fill": "$surface-raised",
+                      "cornerRadius": 22,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        17
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vx1kx",
+                          "name": "Chip label / Disabled",
+                          "fill": "$text-primary",
+                          "content": "Вермут",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pWRZf",
+              "name": "Фильтры выбора",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "gap": 54,
+              "padding": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BMhKR",
+                  "name": "Filter / Selected",
+                  "reusable": true,
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "i5kLm",
+                      "name": "Filter dot / Selected",
+                      "fill": "$accent",
+                      "width": 15,
+                      "height": 15,
+                      "stroke": "$accent",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Uqblv",
+                      "name": "Filter label / Selected",
+                      "fill": "$text-primary",
+                      "content": "Все коктейли",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OtmSE",
+                  "name": "Filter / Default",
+                  "reusable": true,
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "Ih3hR",
+                      "name": "Filter dot / Default",
+                      "fill": "$bg",
+                      "width": 15,
+                      "height": 15,
+                      "stroke": "$border",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "bwnFl",
+                      "name": "Filter label / Default",
+                      "fill": "$text-secondary",
+                      "content": "Текила",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pclJo",
+              "name": "Навигация на мобильном",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "gap": 48,
+              "padding": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kFLHJ",
+                  "name": "Navigation / Mobile",
+                  "reusable": true,
+                  "width": 430,
+                  "height": 62,
+                  "fill": "$surface-raised",
+                  "cornerRadius": 31,
+                  "gap": 4,
+                  "padding": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cDlKD",
+                      "name": "Navigation tab / Каталог",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#2B4818",
+                      "cornerRadius": 26,
+                      "layout": "vertical",
+                      "gap": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "HJL7e",
+                          "name": "Navigation icon / Каталог",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "compass",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LoiRk",
+                          "name": "Navigation label / Каталог",
+                          "fill": "$accent",
+                          "content": "Каталог",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 10,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cGNOd",
+                      "name": "Navigation tab / Мой бар",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$surface-raised",
+                      "cornerRadius": 26,
+                      "layout": "vertical",
+                      "gap": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "YuBBn",
+                          "name": "Navigation icon / Мой бар",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "wine",
+                          "library": "lucide",
+                          "fill": "$text-secondary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "W0irK",
+                          "name": "Navigation label / Мой бар",
+                          "fill": "$text-secondary",
+                          "content": "Мой бар",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 10,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WOiyC",
+                      "name": "Navigation tab / Избранное",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$surface-raised",
+                      "cornerRadius": 26,
+                      "layout": "vertical",
+                      "gap": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "U65rVK",
+                          "name": "Navigation icon / Избранное",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "bookmark",
+                          "library": "lucide",
+                          "fill": "$text-secondary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Hrqlj",
+                          "name": "Navigation label / Избранное",
+                          "fill": "$text-secondary",
+                          "content": "Избранное",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 10,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G7gbx",
+                  "name": "Навигация правила",
+                  "width": 780,
+                  "layout": "vertical",
+                  "gap": 11,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "D4F7Or",
+                      "name": "Навигация состояние",
+                      "fill": "$accent",
+                      "content": "ACTIVE  /  IDLE",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qVLvi",
+                      "name": "Навигация пояснение",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Активный пункт получает тёмно-зелёную подложку и акцентные иконку с подписью. Неактивные пункты остаются приглушёнными.",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "er2Rq",
+          "name": "Карточки и строки",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "T33VYU",
+              "name": "Карточки и строки индекс",
+              "fill": "$accent",
+              "content": "06 / COMPONENTS",
+              "fontFamily": "$font-ui",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "FtedH",
+              "name": "Карточки и строки заголовок",
+              "fill": "$text-primary",
+              "content": "Карточки и строки",
+              "fontFamily": "$font-display",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "rl3l9",
+              "name": "Карточки и строки описание",
+              "fill": "$text-secondary",
+              "content": "Контентные блоки используют минимум обрамления: изображение, метка, заголовок и пояснение.",
+              "fontFamily": "$font-ui",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "BWeZO",
+              "name": "Карточки рецептов",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "gap": 36,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PAuzb",
+                  "name": "Recipe Card / Default",
+                  "reusable": true,
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zPMyy",
+                      "name": "Recipe Card photo",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../barcello-assets/generated-1.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 12,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Ps7eY",
+                          "layoutPosition": "absolute",
+                          "x": 280,
+                          "y": 14,
+                          "name": "Recipe Card bookmark",
+                          "enabled": false,
+                          "width": 22,
+                          "height": 22,
+                          "icon": "bookmark",
+                          "library": "lucide",
+                          "fill": "$accent"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LYtUD",
+                      "name": "Recipe Card meta",
+                      "fill": "$accent",
+                      "content": "КЛАССИКА  ·  5 МИН",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 10,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vXnwh",
+                      "name": "Recipe Card title",
+                      "fill": "$text-primary",
+                      "content": "Маргарита",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 27,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ODbgO",
+                      "name": "Recipe Card description",
+                      "fill": "$text-secondary",
+                      "content": "Текила · лайм · трипл-сек",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "AoaQg",
+                  "type": "ref",
+                  "ref": "PAuzb",
+                  "name": "Recipe Card / Saved",
+                  "width": 320,
+                  "descendants": {
+                    "Ps7eY": {
+                      "enabled": true
+                    },
+                    "vXnwh": {
+                      "content": "Маргарита"
+                    }
+                  }
+                },
+                {
+                  "id": "Jt4fv",
+                  "type": "ref",
+                  "ref": "PAuzb",
+                  "name": "Recipe Card / Disabled",
+                  "width": 320,
+                  "opacity": 0.45,
+                  "descendants": {
+                    "vXnwh": {
+                      "content": "Недоступный рецепт"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o31bom",
+              "name": "Строка ингредиента пример",
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "padding": 28,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BEEfm",
+                  "name": "Ingredient Row",
+                  "reusable": true,
+                  "width": 520,
+                  "height": 58,
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JdeIr",
+                      "name": "Ingredient name",
+                      "fill": "$text-primary",
+                      "content": "Текила 100% агавы",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "N47hoq",
+                      "name": "Ingredient amount",
+                      "fill": "$accent",
+                      "content": "50 мл",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "x7WpJz",
+                  "name": "Строка ингредиента пояснение",
+                  "fill": "$text-secondary",
+                  "content": "Название слева · количество справа · тонкий разделитель",
+                  "fontFamily": "$font-ui",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uE9dP",
+          "name": "Обратная связь",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "G62ax",
+              "name": "Обратная связь индекс",
+              "fill": "$accent",
+              "content": "07 / STATES",
+              "fontFamily": "$font-ui",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "JJYmv",
+              "name": "Обратная связь заголовок",
+              "fill": "$text-primary",
+              "content": "Обратная связь",
+              "fontFamily": "$font-display",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ti2WJ",
+              "name": "Обратная связь описание",
+              "fill": "$text-secondary",
+              "content": "Пустые и ошибочные состояния не ломают иерархию: короткий заголовок, пояснение, одно действие.",
+              "fontFamily": "$font-ui",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "ux5l8",
+              "name": "Статусные сообщения",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fjxrL",
+                  "name": "Notice / Success",
+                  "reusable": true,
+                  "width": 420,
+                  "fill": "$accent-deep",
+                  "cornerRadius": 12,
+                  "stroke": "$accent",
+                  "strokeWidth": 1,
+                  "gap": 14,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Ra6OZ",
+                      "name": "Notice icon / Success",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "circle-check",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JEpWd",
+                      "name": "Notice copy / Success",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KSiGR",
+                          "name": "Notice title / Success",
+                          "fill": "$text-primary",
+                          "content": "Рецепт сохранён",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jZYRr",
+                          "name": "Notice description / Success",
+                          "fill": "$text-secondary",
+                          "content": "Он появится в избранном.",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "scUbI",
+                  "name": "Notice / Error",
+                  "reusable": true,
+                  "width": 420,
+                  "fill": "$surface-raised",
+                  "cornerRadius": 12,
+                  "stroke": "$error",
+                  "strokeWidth": 1,
+                  "gap": 14,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "rc4Jv",
+                      "name": "Notice icon / Error",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "circle-alert",
+                      "library": "lucide",
+                      "fill": "$error"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zA7OO",
+                      "name": "Notice copy / Error",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xm2Cx",
+                          "name": "Notice title / Error",
+                          "fill": "$text-primary",
+                          "content": "Не удалось сохранить",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oMBJi",
+                          "name": "Notice description / Error",
+                          "fill": "$text-secondary",
+                          "content": "Попробуйте ещё раз.",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AUsr3",
+              "name": "Empty State / Favorites",
+              "reusable": true,
+              "width": "fill_container",
+              "fill": "$surface",
+              "cornerRadius": 16,
+              "gap": 24,
+              "padding": 34,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eChxE",
+                  "name": "Empty State icon holder",
+                  "width": 68,
+                  "height": 68,
+                  "fill": "$surface-raised",
+                  "cornerRadius": 34,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "wr5ge",
+                      "name": "Empty State bookmark",
+                      "width": 27,
+                      "height": 27,
+                      "icon": "bookmark",
+                      "library": "lucide",
+                      "fill": "$accent"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E4MUi",
+                  "name": "Empty State copy",
+                  "width": 690,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lnRH3",
+                      "name": "Empty State title",
+                      "fill": "$text-primary",
+                      "content": "Пока ничего не сохранено",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 23,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lOqT8",
+                      "name": "Empty State description",
+                      "fill": "$text-secondary",
+                      "content": "Добавляйте коктейли в избранное, чтобы быстро возвращаться к рецептам.",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "SNfll",
+                  "type": "ref",
+                  "ref": "g3EFH2",
+                  "name": "Empty State action",
+                  "width": 190
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OjlM1",
+          "name": "Размеры и правила",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "RYEBv",
+              "name": "Размеры индекс",
+              "fill": "$accent",
+              "content": "08 / FOUNDATIONS",
+              "fontFamily": "$font-ui",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "nHP7r",
+              "name": "Размеры заголовок",
+              "fill": "$text-primary",
+              "content": "Размеры и правила",
+              "fontFamily": "$font-display",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "bXghr",
+              "name": "Размеры описание",
+              "fill": "$text-secondary",
+              "content": "Базовая шкала отступов, скруглений и целевые размеры экранов.",
+              "fontFamily": "$font-ui",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "G1YFj",
+              "name": "Шкалы и экраны",
+              "width": "fill_container",
+              "gap": 52,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "O3nzvW",
+                  "name": "Шкала отступов",
+                  "width": 430,
+                  "layout": "vertical",
+                  "gap": 15,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iabQe",
+                      "name": "Отступы название",
+                      "fill": "$accent",
+                      "content": "ОТСТУПЫ",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HKo87",
+                      "name": "Spacing / 4",
+                      "height": 22,
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VglqS",
+                          "name": "Spacing label / 4",
+                          "fill": "$text-secondary",
+                          "content": "04",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "Mxtx8",
+                          "name": "Spacing bar / 4",
+                          "fill": "$accent",
+                          "width": 20,
+                          "height": 10
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CszzA",
+                      "name": "Spacing / 8",
+                      "height": 22,
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YBNEO",
+                          "name": "Spacing label / 8",
+                          "fill": "$text-secondary",
+                          "content": "08",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "g1UoQ",
+                          "name": "Spacing bar / 8",
+                          "fill": "$accent",
+                          "width": 40,
+                          "height": 10
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gBwxj",
+                      "name": "Spacing / 12",
+                      "height": 22,
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NVaJu",
+                          "name": "Spacing label / 12",
+                          "fill": "$text-secondary",
+                          "content": "12",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "Y55NOJ",
+                          "name": "Spacing bar / 12",
+                          "fill": "$accent",
+                          "width": 60,
+                          "height": 10
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "q1qGFK",
+                      "name": "Spacing / 16",
+                      "height": 22,
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e4JL8U",
+                          "name": "Spacing label / 16",
+                          "fill": "$text-secondary",
+                          "content": "16",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "p1wb4",
+                          "name": "Spacing bar / 16",
+                          "fill": "$accent",
+                          "width": 80,
+                          "height": 10
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hux8e",
+                      "name": "Spacing / 24",
+                      "height": 22,
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nZkSV",
+                          "name": "Spacing label / 24",
+                          "fill": "$text-secondary",
+                          "content": "24",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "q2Le67",
+                          "name": "Spacing bar / 24",
+                          "fill": "$accent",
+                          "width": 120,
+                          "height": 10
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SAVpo",
+                      "name": "Spacing / 32",
+                      "height": 22,
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iIJSv",
+                          "name": "Spacing label / 32",
+                          "fill": "$text-secondary",
+                          "content": "32",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "hxfRT",
+                          "name": "Spacing bar / 32",
+                          "fill": "$accent",
+                          "width": 160,
+                          "height": 10
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pXsGc",
+                      "name": "Spacing / 48",
+                      "height": 22,
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kY9En",
+                          "name": "Spacing label / 48",
+                          "fill": "$text-secondary",
+                          "content": "48",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "Dt8GG",
+                          "name": "Spacing bar / 48",
+                          "fill": "$accent",
+                          "width": 240,
+                          "height": 10
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G5SVt",
+                  "name": "Шкала скруглений",
+                  "width": 430,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OcMIS",
+                      "name": "Радиусы название",
+                      "fill": "$accent",
+                      "content": "СКРУГЛЕНИЯ",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wWfr0",
+                      "name": "Radius / Поле",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 10,
+                          "id": "amPIg",
+                          "name": "Radius sample / Поле",
+                          "fill": "$surface-raised",
+                          "width": 72,
+                          "height": 48,
+                          "stroke": "$border",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "DMQZb",
+                          "name": "Radius label / Поле",
+                          "fill": "$text-secondary",
+                          "content": "Поле  /  10 px",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EErsR",
+                      "name": "Radius / Карточка",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 12,
+                          "id": "sS2bV",
+                          "name": "Radius sample / Карточка",
+                          "fill": "$surface-raised",
+                          "width": 72,
+                          "height": 48,
+                          "stroke": "$border",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "J2a7oz",
+                          "name": "Radius label / Карточка",
+                          "fill": "$text-secondary",
+                          "content": "Карточка  /  12 px",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hys5A",
+                      "name": "Radius / Чип",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 22,
+                          "id": "yJlNV",
+                          "name": "Radius sample / Чип",
+                          "fill": "$surface-raised",
+                          "width": 72,
+                          "height": 48,
+                          "stroke": "$border",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "J5RU2",
+                          "name": "Radius label / Чип",
+                          "fill": "$text-secondary",
+                          "content": "Чип  /  22 px",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZKJSg",
+                      "name": "Radius / Навигация",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 31,
+                          "id": "tKX4S",
+                          "name": "Radius sample / Навигация",
+                          "fill": "$surface-raised",
+                          "width": 72,
+                          "height": 48,
+                          "stroke": "$border",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "AoqoF",
+                          "name": "Radius label / Навигация",
+                          "fill": "$text-secondary",
+                          "content": "Навигация  /  31 px",
+                          "fontFamily": "$font-ui",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wY1SD",
+                  "name": "Целевые экраны",
+                  "width": 430,
+                  "layout": "vertical",
+                  "gap": 17,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p0CU9m",
+                      "name": "Экраны название",
+                      "fill": "$accent",
+                      "content": "КОНТЕКСТ",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vd7YA",
+                      "name": "Мобильная ширина",
+                      "fill": "$text-primary",
+                      "content": "390 px  /  mobile",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o0DgZ",
+                      "name": "Десктопная ширина",
+                      "fill": "$text-primary",
+                      "content": "1440 px  /  desktop",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NYe6k",
+                      "name": "Экраны пояснение",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Визуальные образцы собраны из текущих экранов. Компоненты с меткой reusable можно использовать как исходные элементы для новых макетов.",
+                      "fontFamily": "$font-ui",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "l9iGhC",
+          "name": "Завершение страницы",
+          "width": "fill_container",
+          "stroke": "$border",
+          "strokeWidth": {
+            "top": 1
+          },
+          "padding": [
+            26,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "QJ8kJ",
+              "name": "Подпись системы",
+              "fill": "$accent",
+              "content": "BARCHELLO  ·  DESIGN SYSTEM",
+              "fontFamily": "$font-ui",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Y98unB",
+              "name": "Версия системы",
+              "fill": "$text-secondary",
+              "content": "01  /  рабочая библиотека",
+              "fontFamily": "$font-ui",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
     }
   ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#14110F"
+    },
+    "surface": {
+      "type": "color",
+      "value": "#201B18"
+    },
+    "surface-raised": {
+      "type": "color",
+      "value": "#28211D"
+    },
+    "border": {
+      "type": "color",
+      "value": "#463B34"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#F6EBDD"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#B7A99B"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#A8DE42"
+    },
+    "accent-deep": {
+      "type": "color",
+      "value": "#35591B"
+    },
+    "cream": {
+      "type": "color",
+      "value": "#FAF0D7"
+    },
+    "error": {
+      "type": "color",
+      "value": "#D87963"
+    },
+    "font-ui": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Playfair Display"
+    },
+    "accent-hover": {
+      "type": "color",
+      "value": "#B8EA5C"
+    },
+    "accent-pressed": {
+      "type": "color",
+      "value": "#91BD35"
+    }
+  },
   "fileToken": "def1b598-3fac-4f9f-b05a-062e04fec97a"
 }
