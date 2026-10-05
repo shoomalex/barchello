@@ -13214,9 +13214,10 @@
       "fill": {
         "type": "image",
         "enabled": true,
-        "url": "../barcello-assets/mojito-deco-recipe-poster.jpg",
+        "url": "../barcello-assets/mojito-deco-recipe-poster-corrected.jpg",
         "mode": "fit"
-      }
+      },
+      "layout": "none"
     },
     {
       "type": "frame",
