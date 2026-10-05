@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=20261002-8" />
+    <link rel="stylesheet" href="./styles.css?v=20261005-4" />
   </head>
   <body>
     <div class="site-shell">
@@ -31,22 +31,22 @@
 
         <nav class="desktop-nav" aria-label="Основная навигация">
           <a class="is-active" href="#cocktails">Коктейли</a>
-          <a href="#bar">Мой бар</a>
-          <a href="#stories">Истории</a>
-          <a href="#favorites">Избранное</a>
+          <a href="./pages.html#/d-pantry" data-page-route="pantry">Мой бар</a>
+          <a href="./pages.html#/d-stories?drink=margarita" data-page-route="stories">Истории</a>
+          <a href="./pages.html#/d-empty" data-page-route="favorites">Избранное</a>
         </nav>
 
         <div class="mobile-header-actions">
-          <button class="icon-button" type="button" aria-label="Открыть меню">
+          <button class="icon-button" type="button" aria-label="Открыть каталог коктейлей" data-page-route="search">
             <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
           </button>
-          <button class="mobile-account" type="button">
+          <button class="mobile-account" type="button" data-page-route="account">
             <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 21c0-4 3.3-7 7.5-7s7.5 3 7.5 7"/></svg>
             <span>Войти</span>
           </button>
         </div>
 
-        <button class="desktop-account" type="button">
+        <button class="desktop-account" type="button" data-page-route="account">
           <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 21c0-4 3.3-7 7.5-7s7.5 3 7.5 7"/></svg>
           <span>Личный кабинет</span>
         </button>
@@ -55,7 +55,7 @@
       <main>
         <section class="mobile-intro" aria-labelledby="mobile-title">
           <h1 id="mobile-title">Бар, который всегда<br />под рукой.</h1>
-          <button class="search-field" type="button">
+          <button class="search-field" type="button" data-page-route="search">
             <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
             <span>Найти коктейль по названию</span>
           </button>
@@ -66,7 +66,7 @@
             <p class="eyebrow"><span></span>На барной стойке</p>
             <h1 data-cocktail-title>Мохито</h1>
             <p class="desktop-description" data-desktop-description>Мята, лайм и белый ром — свежий высокий коктейль для неспешного вечера.</p>
-            <a class="primary-button" href="#recipe">Смотреть рецепт <span aria-hidden="true">→</span></a>
+            <a class="primary-button" href="./pages.html#/d-recipe?drink=mojito" data-page-route="recipe">Смотреть рецепт <span aria-hidden="true">→</span></a>
           </div>
 
           <div class="glass-stage" aria-live="polite">
@@ -94,7 +94,7 @@
           </div>
           <h2 data-cocktail-title>Мохито</h2>
           <p data-mobile-description>Лайм, мята и прохлада в высоком бокале. Свайпните, чтобы увидеть следующий коктейль.</p>
-          <a class="primary-button" href="#recipe">Смотреть рецепт <span aria-hidden="true">→</span></a>
+          <a class="primary-button" href="./pages.html#/m-recipe?drink=mojito" data-page-route="recipe">Смотреть рецепт <span aria-hidden="true">→</span></a>
         </section>
 
         <section class="discover" id="bar">
@@ -103,11 +103,11 @@
             <h2>Ваш следующий<br />любимый коктейль.</h2>
           </div>
           <div class="discover-actions">
-            <a class="discover-card" href="#search">
+            <a class="discover-card" href="./pages.html#/d-search" data-page-route="search">
               <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
               <span><strong>Найти рецепт</strong><small>По названию коктейля</small></span>
             </a>
-            <a class="discover-card" href="#my-bar">
+            <a class="discover-card" href="./pages.html#/d-pantry" data-page-route="pantry">
               <svg viewBox="0 0 24 24"><path d="M5 3h14l-1 7a6 6 0 0 1-12 0L5 3Z"/><path d="M12 16v5M8 21h8"/></svg>
               <span><strong>Из моего бара</strong><small>Из того, что уже дома</small></span>
             </a>
@@ -120,16 +120,16 @@
           <svg viewBox="0 0 24 24"><path d="M5 3h14l-1 7a6 6 0 0 1-12 0L5 3Z"/><path d="M12 16v5M8 21h8"/></svg>
           <span>Каталог</span>
         </a>
-        <a href="#bar">
+        <a href="./pages.html#/m-pantry" data-page-route="pantry">
           <svg viewBox="0 0 24 24"><path d="M7 3h10v18l-5-3-5 3V3Z"/></svg>
           <span>Мой бар</span>
         </a>
-        <a href="#favorites">
+        <a href="./pages.html#/m-empty" data-page-route="favorites">
           <svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8Z"/></svg>
           <span>Избранное</span>
         </a>
       </nav>
     </div>
-    <script src="./app.js?v=20261002-8"></script>
+    <script src="./app.js?v=20261005-1"></script>
   </body>
 </html>

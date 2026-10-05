@@ -1,5 +1,6 @@
 const drinks = [
   {
+    key: "mojito",
     name: "Мохито",
     image: "./assets/cocktail-mojito-cropped.png",
     alt: "Коктейль Мохито с лаймом и мятой",
@@ -9,6 +10,7 @@ const drinks = [
     mobileHeight: 278,
   },
   {
+    key: "negroni",
     name: "Негрони",
     image: "./assets/cocktail-negroni-cropped.png",
     alt: "Коктейль Негрони с апельсином",
@@ -18,6 +20,7 @@ const drinks = [
     mobileHeight: 202,
   },
   {
+    key: "margarita",
     name: "Маргарита",
     image: "./assets/cocktail-margarita-cropped.png",
     alt: "Коктейль Маргарита с лаймом",
@@ -27,6 +30,7 @@ const drinks = [
     mobileHeight: 242,
   },
   {
+    key: "whiskey",
     name: "Виски сауэр",
     image: "./assets/cocktail-whiskey-isolated.png",
     alt: "Коктейль Виски сауэр",
@@ -129,3 +133,22 @@ hero.addEventListener("touchend", (event) => {
   const delta = event.changedTouches[0].clientX - touchStartX;
   if (Math.abs(delta) > 45) step(delta < 0 ? 1 : -1);
 }, { passive: true });
+
+function openPage(route) {
+  const prefix = window.matchMedia("(max-width: 699px)").matches ? "m" : "d";
+  const signedIn = sessionStorage.getItem("barchello-signed-in") === "yes";
+  const destination = route === "favorites"
+    ? (signedIn ? "saved" : "empty")
+    : route === "account"
+      ? (signedIn ? "saved" : "login")
+      : route;
+  const drink = route === "recipe" || route === "stories" ? `?drink=${drinks[current].key}` : "";
+  window.location.href = `./pages.html#/${prefix}-${destination}${drink}`;
+}
+
+document.querySelectorAll("[data-page-route]").forEach((control) => {
+  control.addEventListener("click", (event) => {
+    event.preventDefault();
+    openPage(control.dataset.pageRoute);
+  });
+});

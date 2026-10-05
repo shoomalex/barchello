@@ -77,7 +77,7 @@ svg {
   background: #07080a;
 }
 
-.brand-logo img { width: 100%; height: 100%; object-fit: contain; }
+.brand-logo img { display: block; width: 68px; height: 68px; object-fit: fill; }
 
 .brand-name {
   color: var(--accent);
@@ -384,8 +384,9 @@ svg {
     background: transparent;
   }
   .brand { gap: 8px; }
-  .brand-logo { width: 58px; height: 58px; background: transparent; }
-  .brand-name { margin-top: 18px; font-size: 20px; }
+  .brand-logo { width: 58px; height: 58px; flex: 0 0 58px; background: transparent; }
+  .brand-logo img { display: block; width: 58px; height: 58px; object-fit: fill; }
+  .brand-name { margin-top: 0; font-size: 20px; }
   .desktop-nav, .desktop-account { display: none; }
   .mobile-header-actions { display: flex; align-items: center; gap: 8px; margin-top: 9px; }
   .icon-button, .mobile-account {
